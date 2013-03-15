@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Is There Food on The Floor</title>
+	
+	<link rel="stylesheet" type="text/css" href="src/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="src/css/MyFontsWebfontsKit.css">
+	
+</head>
+<body>
+	<div id="container">
+
+		<div id="headRule">
+			<div id="headContainer">
+				<h1>Is There Food on The Floor</h1> <h2> @ITP</h2>
+			</div>
+		</div>
+
+	
+		<div id="bodyBlock">
+		<div class="timeText">{{time}}</div>
+		{{#food}}
+		<div>
+			<span class="mainText">YES</span>
+		</div>
+		{{/food}}
+
+		{{^food}}
+		<div>
+			<span class="mainText">NO</span>
+		</div>
+		{{/food}}
+
+
+
+
+			
+		</div>
+	</div>
+</body>
+</html>
